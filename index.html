@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CPC 00 (R2) | Professor Moreira</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#14134b;color:#191841;font:1.125rem/1.5 system-ui,sans-serif}main{width:min(100% - 24px,780px);margin:20px auto}.panel{background:#fff9ec;border:4px solid #ffda36;border-radius:24px;padding:clamp(16px,4vw,38px)}.stripe{height:12px;border-radius:20px;margin-bottom:20px;background:linear-gradient(90deg,#ff3d78 0 20%,#ff8a00 20% 40%,#ffdb3d 40% 60%,#39d98a 60% 80%,#20c7ff 80%)}h1,h2,h3,p{margin:0 0 .8em}h1{font-size:clamp(2.1rem,8vw,4.2rem);line-height:1;color:#691cc2}h1 span{display:block;font-size:.49em;line-height:1.15;margin-top:.5em;color:#181749}.brand{font-weight:850}.cover{text-align:center}.badge{display:inline-block;background:#ffdc35;border-radius:10px;padding:.35em .7em;font-weight:850}.meta{font-size:.88rem;color:#453e69}.text,.comment{white-space:pre-line;overflow-wrap:anywhere}.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.row>*{flex:1}button{font:inherit;font-weight:800;color:#fff;background:#641bc2;border:2px solid transparent;border-radius:12px;min-height:48px;padding:8px 12px;cursor:pointer}button:disabled{opacity:.48;cursor:default}button:focus-visible,a:focus-visible{outline:3px solid #1374cc;outline-offset:3px}.start{background:#d41459}.option{background:#193eaa}.option:disabled{opacity:1;cursor:default}.option.good,.feedback.good{background:#08753c;color:white}.option.bad,.feedback.bad{background:#b51237;color:white}.feedback{margin-top:14px;padding:12px;border-radius:12px;font-weight:800}.good.flash,.bad.flash{animation:light .65s ease-out}@keyframes light{40%{box-shadow:0 0 22px 6px currentColor;filter:brightness(1.25)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}nav button{font-size:.9rem;background:#29216d}nav button:last-child{background:#9d2460}progress{width:100%;accent-color:#7721cd}.review{border:1px solid #d3c2e4;border-radius:12px;margin-top:12px;padding:12px}summary{font-weight:800;cursor:pointer}.review p{margin-top:12px}a{color:#512097}.score{font-weight:850;color:#5811a9}
+
+body{background:radial-gradient(ellipse at top left,#ed007d,transparent 58%),radial-gradient(ellipse at bottom right,#005bff,transparent 65%),#4a00a8;min-height:100vh}
+.panel{border:5px solid #ffdc00;background:#fffdf3;box-shadow:0 8px 0 #30106d,0 16px 35px #1d005564}
+.stripe{height:18px;background:linear-gradient(90deg,#ff007a 0 16.67%,#ff6800 16.67% 33.33%,#ffde00 33.33% 50%,#00d86b 50% 66.67%,#009aff 66.67% 83.33%,#9b00fa 83.33%);box-shadow:0 3px 0 #280071}
+.cover{overflow:hidden;padding:24px 14px;border-radius:18px;background:radial-gradient(circle at top,#8b00f0,transparent 72%),linear-gradient(140deg,#370083,#171685);color:#fff}
+.cover h1{color:#ffe200;text-shadow:2px 3px #790056}.cover h1 span,.cover a{color:#fff;text-shadow:none}
+.cover .badge{color:#32105c;border:3px solid #ff9100;box-shadow:0 3px 0 #b40074}
+.start{background:#ffdf00;color:#280064;border-color:#ffa300;box-shadow:0 4px 0 #e91683}
+h2{color:#5d00b0;border-left:8px solid #ff0081;padding-left:10px}
+.option{background:#003bd1;border-color:#00a9ff}.option:nth-child(2){background:#7400b8;border-color:#eb40ff}
+.option.good{background:#08753c;border-color:#00e176}.option.bad{background:#b51237;border-color:#ff5365}
+nav button:first-child{background:#5700bd;border-color:#ad5cff}nav button:nth-child(2){background:#0040c8;border-color:#00aaff}nav button:last-child{background:#ff8a00;color:#29114b;border-color:#ffca00}
+.review{border:2px solid #bd82ff;background:#f6edff}.review summary{color:#4f009d}
+</style>
+<main class="panel" id="app"></main>
+<script>
+const questions = [["AFM (Pref Fortaleza)/Pref Fortaleza/Contabilidade/2023", "Acerca do disposto na Estrutura Conceitual da Contabilidade, julgue o próximo item.\n\nA divulgação de demonstrações contábeis combinadas indica que a entidade que reporta compreende duas ou mais entidades, mas que não são todas vinculadas ao relacionamento controladora-controlada.", "Certo", "CPC 00 (R2)  3.11–3.12\n\nAs demonstrações combinadas abrangem duas ou mais entidades que não estão todas ligadas por relação controladora-controlada.\n\nSe A controla B, demonstrações de A e sua controlada são consolidadas. Se duas entidades são apresentadas juntas sem estarem todas vinculadas entre si por essa relação, o CPC denomina as demonstrações combinadas."], ["Ana TI (DATAPREV)/DATAPREV/Gestão Econômico-Financeira/2023", "Com relação aos elementos das demonstrações contábeis, julgue o item a seguir.\n\nAtivos são os recursos econômicos presentes, decorrentes de eventos passados, que se encontram sob o controle de uma entidade.", "Certo", "CPC 00 (R2)  4.3–4.4\n\nA definição exige recurso econômico presente controlado em decorrência de eventos passados. Recurso econômico é direito com potencial de produzir benefícios.\n\nPara aplicar a definição, identifique o direito existente, o benefício potencial, quem direciona seu uso e o evento passado que deu origem ao controle. O enunciado resume essa definição sem exigir propriedade legal."], ["Ana Jr (TBG)/TBG/Contábil/2023", "Com base na estrutura conceitual para a elaboração de demonstrações contábeis, julgue o item a seguir.\n\nA capacidade de gerar benefícios econômicos é uma condição necessária para que um recurso seja considerado um ativo pela contabilidade.", "Certo", "CPC 00 (R2)  4.4, 4.14–4.15\n\nÉ necessário potencial de gerar benefícios em pelo menos uma circunstância. Não é necessário que a geração seja certa ou provável para que exista recurso econômico.\n\nUm direito cujo benefício apareceria apenas em uma circunstância possível pode satisfazer o teste de potencial. A baixa probabilidade pode afetar o reconhecimento ou a mensuração sem eliminar automaticamente a existência do recurso."], ["Ana Jr (TBG)/TBG/Contábil/2023", "Com base na estrutura conceitual para a elaboração de demonstrações contábeis, julgue o item a seguir.\n\nA prudência diz respeito à cautela que o contador deve ter caso lhe seja demandado realizar julgamentos em condições de incerteza e contribui para evitar a superavaliação e a subavaliação de ativos, passivos, receitas e despesas.", "Certo", "CPC 00 (R2)  2.15–2.17\n\nPrudência é cautela sob incerteza e apoia a neutralidade. A cautela precisa evitar distorções em ambos os sentidos.\n\nSe há incerteza numa estimativa, a prudência exige avaliar cuidadosamente dados e premissas. Inflar um passivo deliberadamente também distorce a informação. A cautela opera a favor de estimativas neutras."], ["APC (FUNPRESP-EXE)/FUNPRESP-EXE/Contabilidade/2022", "A respeito das características qualitativas de informações financeiras úteis, julgue o próximo item.\n\nA aplicação das características qualitativas de melhoria é um processo iterativo que segue uma ordem prescrita, de maneira que nem excepcionalmente se pode diminuir uma característica qualitativa de melhoria para maximizar outra característica qualitativa de melhoria.", "Errado", "CPC 00 (R2)  2.37–2.38\n\nA aplicação das características de melhoria é iterativa e não segue ordem prescrita. Uma delas pode ser reduzida em determinadas circunstâncias para maximizar outra.\n\nAo aplicar uma norma nova, pode haver redução temporária de comparabilidade em troca de melhor relevância ou representação fidedigna. A transição pode ser explicada, e as características de melhoria são avaliadas em conjunto, sem sequência rígida."], ["APC (FUNPRESP-EXE)/FUNPRESP-EXE/Contabilidade/2022", "A respeito das características qualitativas de informações financeiras úteis, julgue o próximo item.\n\nUma das características qualitativas da informação contábil é sua capacidade de proporcionar ao gestor poder preditivo na tomada de decisões.", "Certo", "CPC 00 (R2)  1.9, 2.6–2.10\n\nO valor preditivo permite usar a informação em estimativas futuras e é uma forma de relevância. O gestor pode usar essa informação, embora não seja o usuário primário do relatório para fins gerais.\n\nO histórico de receitas pode ajudar o gestor a projetar vendas futuras. O CPC chama essa utilidade de valor preditivo, que integra a relevância. O dado pode servir de insumo a um modelo, sem precisar ser uma previsão pronta."], ["APC (FUNPRESP-EXE)/FUNPRESP-EXE/Contabilidade/2022", "A respeito das características qualitativas de informações financeiras úteis, julgue o próximo item.\n\nPara que a representação dos fenômenos econômicos nos relatórios financeiros seja perfeitamente fidedigna, ela deve, necessariamente, obedecer às normas vigentes no país, ter a menor quantidade de erros possível e ser isenta de tendências econômicas.", "Errado", "CPC 00 (R2)  2.12–2.18\n\nA representação perfeitamente fidedigna seria completa, neutra e livre de erros. A lista do item troca esses requisitos por critérios distintos e omite a completude.\n\nUma divulgação completa apresenta informações suficientes para compreender o fenômeno. Neutralidade exige ausência de viés. Ausência de erros envolve também a escolha e a aplicação adequadas do processo, inclusive quando existe estimativa."], ["APC (FUNPRESP-EXE)/FUNPRESP-EXE/Contabilidade/2022", "A respeito das características qualitativas de informações financeiras úteis, julgue o próximo item.\n\nAs avaliações de custos e benefícios sempre justificam os mesmos requisitos de relatório para toda e qualquer entidade.", "Errado", "CPC 00 (R2)  2.43\n\nA relação custo-benefício pode justificar requisitos diferentes em função do porte, das formas de captação e das necessidades dos usuários.\n\nUm requisito que traz grande benefício para usuários de entidades com captação pública pode gerar benefício menor em outro contexto. Os custos e benefícios variam, e a palavra “sempre” torna a generalização incorreta."], ["APC (FUNPRESP-EXE)/FUNPRESP-EXE/Contabilidade/2022", "Considerando as convenções contábeis, julgue o item subsequente.\n\nO julgamento quanto à materialidade se relaciona com a necessidade de divulgação de todas as informações da empresa, sem exceção; assim, o leitor não será levado a tirar conclusões inadequadas sobre os resultados e as tendências da empresa.", "Errado", "CPC 00 (R2)  2.11\n\nA materialidade considera se omitir, distorcer ou obscurecer uma informação poderia influenciar decisões. O julgamento depende do contexto, da natureza e da magnitude.\n\nSe a omissão de um evento não seria capaz de influenciar decisões dos usuários primários no contexto do relatório, o teste de materialidade não exige sua divulgação individual. Já uma informação material pode precisar de destaque mesmo com valor relativamente baixo."], ["AFCE (TCE-SC)/TCE SC/Ciências Contábeis/2022", "Quanto à estrutura conceitual para elaboração e divulgação de relatório contábil-financeiro, julgue o item seguinte.\n\nOs relatórios econômico-financeiros de propósitos gerais podem atender a um público bastante diversificado, mas seu público preferencial é aquele que financia a entidade que os elabora.", "Certo", "CPC 00 (R2)  1.2, 1.5, 1.10\n\nO público primário é formado por investidores e credores existentes e potenciais. Outros interessados também podem usar os relatórios.\n\nOs potenciais investidores também são usuários primários, ainda que ainda não tenham fornecido recursos. A expressão “quem financia” deve ser entendida com esse alcance, incluindo investidores e credores atuais e potenciais."]];
+const app = document.querySelector('#app');
+const answers = Array(questions.length).fill(null);
+let page = -1;
+const escape = (s) => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function render(scroll = true) {
+  const total = questions.length;
+  const count = answers.filter(a => a !== null).length;
+  const hits = answers.filter((a, i) => a === questions[i][2]).length;
+  let content;
+  if (page === -1) {
+    content = `<section class="cover"><p class="brand">Curso de Contabilidade Professor Moreira</p><p><a href="https://wa.me/5561985323574">WhatsApp 61 9 85323574</a></p><p class="badge">BANCA: CEBRASPE - CESPE</p><h1 tabindex="-1">CPC 00 (R2)<span>Estrutura Conceitual para Relatório Financeiro</span></h1><p>Quiz 7 de 8 · Questões 71 a 80</p><button class="start" data-action="next">Começar →</button></section>`;
+  } else if (page === total) {
+    content = `<h2 tabindex="-1">Resultado e gabarito comentado</h2><p class="score" aria-live="polite">${hits} acertos • ${count-hits} erros • ${total-count} em branco<br>${Math.round(hits/total*100)}% de acertos no total</p>`;
+    content += questions.map(([exam,prompt,key,comment],i) => `<details class="review"><summary>Questão ${i+71} · ${key}</summary><p class="meta">${escape(exam)}</p><p class="text">${escape(prompt)}</p><p><strong>Sua resposta:</strong> ${answers[i] ?? 'Em branco'}</p><div class="comment">${escape(comment)}</div></details>`).join('');
+  } else {
+    const [exam,prompt,key,comment] = questions[page];
+    const answer = answers[page];
+    const status = answer === key ? 'good' : 'bad';
+    const options = ['Certo','Errado'].map(option => {
+      const color = answer && option === key ? ' good' : answer === option ? ' bad' : '';
+      return `<button class="option${color}" data-action="answer" data-answer="${option}" ${answer ? 'disabled' : ''}>${option}</button>`;
+    }).join('');
+    content = `<progress max="${total}" value="${page+1}" aria-label="Posição no quiz"></progress><h2 tabindex="-1">Questão ${page+71} <small>· ${page+1} de ${total}</small></h2><p class="meta">CEBRASPE (CESPE) · ${escape(exam)}</p><p class="text">${escape(prompt)}</p><div class="row">${options}</div>`;
+    if (answer) content += `<p id="feedback" tabindex="-1" role="status" class="feedback ${status}${scroll ? '' : ' flash'}">${answer === key ? '✓ Acertou!' : '✗ Errou!'} Gabarito: ${key}.</p><details class="review"><summary>Ver resolução comentada</summary><p class="comment">${escape(comment)}</p></details>`;
+  }
+  if (page >= 0) content += `<nav class="row" aria-label="Navegação do quiz"><button data-action="prev">← Voltar</button><button data-action="next" ${page===total ? 'disabled' : ''}>${page===total-1 ? 'Gabarito →' : 'Seguir →'}</button><button data-action="reset">↻ Reiniciar</button></nav>`;
+  app.innerHTML = '<div class="stripe" aria-hidden="true"></div>' + content;
+  if (scroll) {
+    window.scrollTo(0,0);
+    app.querySelector('h1,h2').focus({preventScroll:true});
+  } else {
+    document.querySelector('#feedback').focus({preventScroll:true});
+  }
+}
+app.addEventListener('click', event => {
+  const button = event.target.closest('button');
+  if (!button || button.disabled) return;
+  switch (button.dataset.action) {
+    case 'next': page++; break;
+    case 'prev': page--; break;
+    case 'reset':
+      if (answers.some(a => a !== null) && !window.confirm('Apagar as respostas e reiniciar o quiz?')) return;
+      answers.fill(null);
+      page = -1;
+      break;
+    case 'answer':
+      if (answers[page] !== null) return;
+      answers[page] = button.dataset.answer;
+      render(false);
+      return;
+  }
+  render();
+});
+render();
+</script>
+</html>
